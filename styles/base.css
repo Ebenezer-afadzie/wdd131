@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header {
+    font-family: var(--headind-font);
+    color: var(--primary-color);
+    align-items:center;
+    padding: 0 auto;
+    background-color: rgba(41, 92, 194, 0.295);
+
+}
+h1{
+    align-items:center;
+    margin: 0 auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    margin-top: 10px;
+    padding: 1px; 
+    background-color: rgb(13, 33, 86);
+    max-width: auto;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+nav a {
+display: block;
+color: whitesmoke;
+text-align: center;
+text-decoration: none;
+}
+
+nav a:hover{
+    border: 1px;
+    color:goldenrod;
+    text-decoration: underline;
+}
+
+footer {
+    align-items:center;
+    margin: 0 auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: ; 
+    background-color:  rgba(41, 92, 194, 0.295);
+    
+}
