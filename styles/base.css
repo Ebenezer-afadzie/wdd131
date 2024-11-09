@@ -4,13 +4,13 @@ header {
     font-family: var(--headind-font);
     color: var(--primary-color);
     align-items:center;
-    padding:  auto;
+    padding: 0 ;
     background-color: rgba(41, 92, 194, 0.295);
 
 }
 h1{
     align-items:center;
-    margin:  auto;
+    margin: 0 ;
     font-weight: bold;
     display: flex;
     justify-content: center;
