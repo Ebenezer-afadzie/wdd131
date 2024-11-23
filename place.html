@@ -2,39 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Place</title>
+        <meta name="viewport"  content="width=device-width,initial-scale=1.0">
+        <title>"WDD 131 - Dynamic Web Fundamentals -Ebenezer Afadzie</title>
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals">
+        <meta name="author" content="ebenezer afadzie">
         <link rel="stylesheet" href="styles/place.css">
         <script src="scripts/place.js" defer></script>
    </head>
    <body>
-    <header>
-        <h1>Ghana Accra</h1>
-    </header>
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <picture>
-                <source srcset="images/pexels-mali-42108" media="(min-width: 768px)">
-                <img src="images/pexels-mali-42108.jpg" alt="temperature">
-            </picture>
-        </section>
-        <!-- Weather Section -->
-        <section class="weather">
-            <h2>Weather <span class="weather-icon"></span></h2>
-            <p>Temperature: <span id="temperature">10</span>°C</p>
-            <p>Wind Speed: <span id="wind-speed">6</span> km/h</p>
-            <p>Wind Chill: <span id="wind-chill">Calculating...</span></p>
-        </section>
-    </main>
-    <footer>
-        <p>
+        <header>
+            <h1>Ghana Accra</h1>
+        </header>
+        <main>
+            <!-- Hero Section -->
+             <section class="hero">
+                <picture>
+                    <source srcset="images/temperature2" media="(min-width: 768px)">
+                    <img src="images/temperature2.png" alt="temperature">
+                </picture>
+            </section>
+            <!-- Weather Section -->
+             <section class="weather">
+                <h2>Accra Weather <span class="weather-icon"></span></h2>
+                <p>Temperature: <span id="temperature">10</span>°C</p>
+                <p>Wind Speed: <span id="wind-speed">6</span> km/h</p>
+                <p>Wind Chill: <span id="wind-chill">Calculating...</span></p>
+            </section>
+        </main>
+        <footer>
+            <p>
             &copy;  <span id="currentyear"></span> &nbsp;Ebenezer Afadzie | Ghana
-        </p>
-        <p id="lastModified"></p>
-        <!-- -->
-    </footer>
-    
-
+            </p>
+            <p id="lastModified"></p>
+            <!-- -->
+        </footer>
     </body>
 </html>
