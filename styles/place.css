@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #4f86a8; /* Example green for Madagascar */
+    --secondary-color: #efe0e0; /* Example red for Madagascar */
+    --background-color: #f4f4f4;
+    --text-color: #333;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  /* Hero Section */
+  .hero picture img {
+    width: 100%;
+    height: auto;
+  }
+  h2{
+    background-color: aqua;
+  }
+  /* Weather Section */
+  .weather {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: #7398e4;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 8px;
+  }
+  
+  .weather-icon::after {
+    content: "⛅"; /* Weather icon pseudo-element */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  #lastModified{
+    color: rgb(236, 236, 238);
+}
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .weather {
+      font-size: 1.2rem;
+    }
+  }

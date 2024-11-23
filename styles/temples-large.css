@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+    /* Layout adjustments for larger screens */
+    main {
+        width: 80%;
+    }
+
+    figure {
+        display: inline-block;
+        width: 30%;
+        margin: 1.5rem;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+    }
+
+    nav a {
+        padding: 1rem;
+    }
+}
