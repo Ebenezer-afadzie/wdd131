@@ -41,7 +41,7 @@
   }
   
   .weather-icon::after {
-    content: "⛅"; /
+    content: "⛅"; 
   }
   
   /* Footer */
