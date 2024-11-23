@@ -1,6 +1,6 @@
 // Update footer with the current year and last modified date
 document.getElementById("currentyear").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent ='Lastmodification' + document.lastModified;
+document.getElementById("lastModified").textContent ='Lastmodification: ' + document.lastModified;
 
 // Wind chill calculation
 const temperature = 10; // Static value in °C
